@@ -1,0 +1,126 @@
+body{
+    background-color: black;
+    color: white;
+}
+.logo{
+    height: 5px;
+    width: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 50%;
+    margin-top: 9%;
+}
+.logo img{
+    transform: scale(0.04);
+}
+.h1{
+    font-size: 23px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 3%;
+}
+.user{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-left: 40%;
+    margin-top: 5px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.user h1{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.user input[type="text"]{
+    height: 37px;
+    width: 45%;
+    background:transparent ;
+    border: rgba(255, 255, 255, 0.37) solid 1px;
+    margin-bottom: 5px;
+    margin-top:none;
+    cursor: text;
+}
+#b1{
+    width: 45%;
+    background-color: #1DB954;
+    border-radius: 25px;
+    height:45px;
+    margin-top: 7px;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 5px;
+    border:none;
+}
+#idd{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-top: 25px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 4%;
+    gap: 15px;
+    margin-top: 10px;
+}
+.btns button{
+    width:95%;
+    border-radius: 25px;
+    background:black;
+    border: 1px solid white;
+    color: white;
+    height: 43px;
+    width: 150%;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 2px;
+}
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin-top: 24%;
+    flex-direction: column;
+    margin-left: 6%;
+    font-size: 20px;
+    gap: 7px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.486);
+}
+.sign-up a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+button{
+    cursor:pointer;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.486);
+    margin-top: 10%;
+    font-size: 15px;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.486);
+}
