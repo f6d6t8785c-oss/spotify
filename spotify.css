@@ -1,6 +1,7 @@
 body{
     background-color: black;
     color: white;
+    overflow-x: hidden;
 }
 .logo{
     height: 5px;
@@ -9,7 +10,7 @@ body{
     display: flex;
     justify-content: center;
     margin-left: 50%;
-    margin-top: 9%;
+    margin-top: 3%;
 }
 .logo img{
     transform: scale(0.04);
@@ -30,7 +31,7 @@ body{
     align-items: center;
     font-size: 15px;
     margin-left: 40%;
-    margin-top: 5px;
+    margin-top: 3px;
     font-size: 17px;
     font-family: sans-serif;
 }
@@ -40,16 +41,22 @@ body{
 }
 .user input[type="text"]{
     height: 37px;
-    width: 45%;
+    width: 43%;
     background:transparent ;
     border: rgba(255, 255, 255, 0.37) solid 1px;
     margin-bottom: 5px;
     margin-top:none;
     cursor: text;
     color:white;
+    padding-left: 20px;
 }
+.user input[type="text"]:focus{
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.377);
+}
+
 #b1{
-    width: 45%;
+    width: 43%;
     background-color: #1DB954;
     border-radius: 25px;
     height:45px;
@@ -76,27 +83,30 @@ body{
     position: absolute;
     margin-left: 5%;
     gap: 15px;
-    margin-top: 10px;
+    top: 360px;
+    width:50%;
+    margin: auto;
+    right: 294px;
 }
 .btns button{
-    width:95%;
     border-radius: 25px;
     background:black;
     border: 1px solid white;
     color: white;
     height: 43px;
-    width: 171%;
+    width: 50%;
     font-family: sans-serif;
     font-size: 15px;
     font-weight: bolder;
     padding: 2px;
+    
 }
 .sign-up{
     display: flex;
     justify-content: center;
     align-items: center;
     color: rgb(255, 255, 255);
-    margin-top: 24%;
+    margin-top: 20%;
     flex-direction: column;
     margin-left: 6%;
     font-size: 20px;
@@ -117,14 +127,15 @@ footer{
     justify-content: center;
     align-items: center;
     color: rgba(255, 255, 255, 0.486);
-    margin-top: 10%;
+    margin-top: 2%;
     font-size: 15px;
     text-align: center;
+    margin-left: 7%;
 }
 footer a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.486);
 }
 .btns button:hover{
-    box-shadow: 0px 0px 10px 1px white;
+    transform: scale(1.1);
 }
